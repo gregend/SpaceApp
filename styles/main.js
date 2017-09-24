@@ -1,0 +1,80 @@
+import { StyleSheet } from 'react-native'
+export const styles = StyleSheet.create({
+    container: {
+      flex: 1,
+      backgroundColor: '#fff',
+      flexDirection: 'column',
+    },
+    loading: {
+      flex: 1,
+      backgroundColor: '#fff',
+      alignItems: 'center',
+      justifyContent: 'center',
+    },
+    description: {
+      margin: 10,
+      padding: 10,
+      flex: 1,
+      flexWrap: 'wrap',
+    },
+    dateText: {
+      flex: 1,
+      flexWrap: 'wrap',
+    },
+    titleText: {
+      fontSize: 20,
+      fontWeight: 'bold',
+    },
+    dateButtonText: {
+      fontSize: 20,
+      fontWeight: 'bold',
+      color: 'white',
+    },
+    image: {
+      flex: 1,
+      width: 100,
+      height: 50,
+    },
+    button: {
+      height: 30,
+      width: 80,
+      backgroundColor: 'skyblue',
+      justifyContent: 'center',
+      alignItems: 'center'
+    },
+    datePickerYear: {
+      height: 30,
+      width: 50,
+      borderWidth: 0,
+      backgroundColor: 'powderblue',
+      justifyContent: 'center',
+      alignItems: 'center',
+      fontSize: 20,
+      fontWeight: 'bold',
+      color: 'white',
+    },
+    datePickerMonth: {
+      height: 30,
+      width: 30,
+      paddingLeft: 5,
+      borderWidth: 0,
+      backgroundColor: 'skyblue',
+      justifyContent: 'center',
+      alignItems: 'center',
+      fontSize: 20,
+      fontWeight: 'bold',
+      color: 'white',
+    },
+    datePickerDay: {
+      height: 30,
+      width: 30,
+      paddingLeft: 5,
+      borderWidth: 0,
+      backgroundColor: 'steelblue',
+      justifyContent: 'center',
+      alignItems: 'center',
+      fontSize: 20,
+      fontWeight: 'bold',
+      color: 'white',
+    },
+  });
